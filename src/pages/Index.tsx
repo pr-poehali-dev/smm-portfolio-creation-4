@@ -134,14 +134,20 @@ const Index = () => {
               </p>
             </div>
 
-            <div className="bg-card border border-border rounded-2xl p-8 hover:border-secondary/50 transition-all duration-300 animate-slide-in-right">
-              <div className="w-20 h-20 bg-gradient-to-br from-secondary to-primary rounded-full flex items-center justify-center text-4xl font-bold mb-6">
-                Д
+            <div className="bg-card border border-border rounded-2xl overflow-hidden hover:border-secondary/50 transition-all duration-300 animate-slide-in-right">
+              <div className="aspect-square w-full overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/files/IMG_4817.jpeg" 
+                  alt="Даша"
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <h3 className="text-2xl font-semibold mb-4">Даша</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Видео. Режиссура. Снимаю так, чтобы хотелось пересматривать. Каждый кадр — это история, которая цепляет.
-              </p>
+              <div className="p-8">
+                <h3 className="text-2xl font-semibold mb-4">Даша</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Видео. Режиссура. Снимаю так, чтобы хотелось пересматривать. Каждый кадр — это история, которая цепляет.
+                </p>
+              </div>
             </div>
           </div>
 
